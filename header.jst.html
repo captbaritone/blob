@@ -1,0 +1,16 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head><body>&lt;% if(focus == 'publisher') { %&gt;
+    <div id="back-to-library">
+        <a>
+            <span class="hss-ui-icons hss-reply link"></span>
+            &lt;%- MESSAGES.HEADER.BACK_TO_LIBRARY %&gt;
+        </a>
+    </div>
+&lt;% } %&gt;
+&lt;% if(focus == 'library') { %&gt;
+    <div id="create-new" class="btn-group page-main-callout">
+        <button class="btn" data-target="#publisher-modal">&lt;%- MESSAGES.HEADER.CREATE_AD_BUTTON %&gt;</button>
+    </div>
+&lt;% } %&gt;
+<h1>&lt;%- MESSAGES.HEADER.TITLE %&gt;</h1>
+</body></html>
